@@ -609,6 +609,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &971311928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2320299944474185992, guid: 14a3609a198cc0a458d44e0a9910e59b, type: 3}
+  m_PrefabInstance: {fileID: 7684750420280058891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &971311930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971311928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 824876a6e41aed34d87a1f1585000504, type: 2}
+--- !u!114 &971311931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971311928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnDelay","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnCooldownRemaining","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7375475028329282598, guid: b9466efb9e66f674d85f56a19c8dbaed, type: 3}
 --- !u!1 &996095091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1225,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2320299944474185992, guid: 14a3609a198cc0a458d44e0a9910e59b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971311931}
+    - targetCorrespondingSourceObject: {fileID: 2320299944474185992, guid: 14a3609a198cc0a458d44e0a9910e59b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971311930}
   m_SourcePrefab: {fileID: 100100000, guid: 14a3609a198cc0a458d44e0a9910e59b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
