@@ -1239,8 +1239,11 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"boostSpeed","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isBoosting","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bulletSpeed","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 7887216578223748416, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
 --- !u!114 &1760378551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,106 +1545,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.477829, y: 24.959656}
   m_EdgeRadius: 0
---- !u!1001 &2268932492192577663
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3279840584359911019, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_Radius
-      value: 0.50718814
-      objectReference: {fileID: 0}
-    - target: {fileID: -3279840584359911019, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0071881413
-      objectReference: {fileID: 0}
-    - target: {fileID: 7887216578223748416, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_Name
-      value: Bullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000029802322
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8245200698595242347, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7887216578223748416, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2268932492192577665}
-  m_SourcePrefab: {fileID: 100100000, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
---- !u!1 &2268932492192577664 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7887216578223748416, guid: 8b80accc1ee489d4380a4049a86de35a, type: 3}
-  m_PrefabInstance: {fileID: 2268932492192577663}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2268932492192577665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2268932492192577664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1001 &7085541056206910271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1786,4 +1689,3 @@ SceneRoots:
   - {fileID: 802732235}
   - {fileID: 1914494108}
   - {fileID: 1035820847}
-  - {fileID: 2268932492192577663}
